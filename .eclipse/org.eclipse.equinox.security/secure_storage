@@ -1,0 +1,10 @@
+#Equinox secure storage version 1.0
+#Thu Feb 09 12:05:09 SGT 2012
+org.eclipse.equinox.security.preferences.version=1
+org.eclipse.equinox.security.preferences.cipher=PBEWithMD5AndDES
+/com/appcelerator/titanium/core//com.appcelerator.titanium.core.ACCOUNT_PASSWORD/file\:/Applications/Titanium\ Studio/=org.eclipse.equinox.security.osxkeystoreintegration\trEm9eNwLo9c\=,iQMI1vXYC5OX5EY/mS8OtA\=\=
+/com/appcelerator/titanium/core//com.appcelerator.titanium.core.ACCOUNT_USER_DISPLAY_NAME/file\:/Applications/Titanium\ Studio/=\t,QWRpbmRhIFByYWRpdHlh
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithMD5AndDES
+/com/appcelerator/titanium/core//com.appcelerator.titanium.core.ACCOUNT_TIMESTAMP/file\:/Applications/Titanium\ Studio/=org.eclipse.equinox.security.osxkeystoreintegration\t99FTgHJ8d9g\=,qjYLLqPlzzMQFPZM6XmFPg\=\=
+/org.eclipse.equinox.secure.storage/verification/org.eclipse.equinox.security.osxkeystoreintegration=org.eclipse.equinox.security.osxkeystoreintegration\tE/q4StI0hwM\=,u8oIPbq4m/5PWcmZ4qn+SJJHBWre0IHY
+/com/appcelerator/titanium/core//com.appcelerator.titanium.core.ACCOUNT_USERNAME/file\:/Applications/Titanium\ Studio/=org.eclipse.equinox.security.osxkeystoreintegration\thQWMvDIQLLg\=,ZvBsTKIvERYr6oqxJLrpWsBYoCcGU+hg

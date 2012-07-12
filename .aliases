@@ -1,0 +1,52 @@
+alias migrate="rake db:migrate db:test:prepare"
+alias remigrate="rake db:migrate && rake db:migrate:redo && rake db:schema:dump db:test:prepare"
+alias remongrate="rake mongoid:migrate && rake mongoid:migrate:redo"
+alias gadd="git add -u && git add . && git status"
+alias svnprecommit="git svn rebase && rake features && rake test"
+alias hgprecommit="hg pull && rake features && rake test"
+alias g="git"
+alias tu="ruby_test unit"
+alias tf="ruby_test functional"
+alias sm="ruby_spec models"
+alias sc="ruby_spec controllers"
+alias ti="ruby_test integration"
+alias hgdi="hg diff --color=always --git | less -r"
+alias hgrev="hg revert --no-backup"
+alias hgclean="hg status | grep -e '^\\?' | sed 's/^\\?//' | xargs -t rm -f"
+alias gi="gem install"
+alias giv="gem install -v"
+alias gci="git pull --rebase && rake && git push"
+alias tlf="tail -f"
+
+# My own aliases
+alias rcon="bundle exec pry -r ./config/environment"
+alias rser="rails s"
+alias rgen="rails g"
+alias rdes="rails destroy"
+alias bex="bundle exec"
+
+# Aliases from Dinesh
+alias ls="ls -alFo"
+alias df="df -h"
+alias psw="ps waxu | grep "
+alias s="source"
+alias du="du -h -d1"
+alias mv="mv -i"
+alias pu=pushd
+alias po=popd
+alias goo="traceroute -w 2 -q 2 google.com"
+alias poo="ping -t 5 google.com"
+alias cvu="cvs update -Ad 2>/dev/null | grep -v \?"
+alias ci="cvs ci -m"
+alias sshc="ssh -o compression=yes -o compressionlevel=6"
+alias topo="top -o cpu"
+alias rm="rm -v"
+alias nsl="nslookup"
+alias curl="curl -L"
+alias svu="svn update"
+
+# Aliases from anyall.org/.zshrc
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias cgrep='grep --color=always'
+
