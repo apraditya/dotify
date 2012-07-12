@@ -23,7 +23,6 @@ alias rcon="bundle exec pry -r ./config/environment"
 alias rser="rails s"
 alias rgen="rails g"
 alias rdes="rails destroy"
-alias bex="bundle exec"
 
 # Aliases from Dinesh
 alias ls="ls -alFo"
