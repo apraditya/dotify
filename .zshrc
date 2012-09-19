@@ -38,7 +38,7 @@ then source ~/.profile
 fi
 
 # use vim as an editor
-export EDITOR='subl -w'
+export EDITOR=vim
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then
@@ -103,6 +103,11 @@ biggest() {
 # Create a dir with a time attached to its name
 nowdir() {
   mkdir $(date "+%y%m%d")-$1
+}
+
+# Find files containting particular word
+findin() {
+  find $2 -type f | xargs grep -i $1
 }
 
 export PATH=/usr/local/bin:/usr/local/Cellar/php/5.3.8/bin:$HOME/bin:$PATH
