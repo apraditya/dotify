@@ -1,5 +1,6 @@
 # ADD LOCAL CONFIGURATION HERE
-
+[alias]
+  mylog = log --author=apraditya
 
 # DO NOT EDIT BELOW THIS LINE
 [push]
