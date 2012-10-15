@@ -2,6 +2,10 @@
 [alias]
   mylog = log --author=apraditya
   co    = checkout
+  stl   = stash list
+  sts   = stash show
+  std   = stash drop
+  sta   = stash apply
 
 # DO NOT EDIT BELOW THIS LINE
 [push]
