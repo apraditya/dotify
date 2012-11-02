@@ -2,10 +2,12 @@
 [alias]
   mylog = log --author=apraditya
   co    = checkout
-  stl   = stash list
-  sts   = stash show
-  std   = stash drop
+  chp   = cherry-pick
   sta   = stash apply
+  std   = stash drop
+  stl   = stash list
+  stp   = stash pop
+  sts   = stash show
 
 # DO NOT EDIT BELOW THIS LINE
 [push]
@@ -39,7 +41,7 @@
 	email = apraditya@gmail.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.localized/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
