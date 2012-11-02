@@ -43,7 +43,7 @@ if [ -e "$HOME/.aliases" ]; then
 fi
 
 # History awesomeness!  see rant at dotfiles.org/~brendano/.inputrc
-# (zsh does not use gnu readline, so doesnt use .inputrc, 
+# (zsh does not use gnu readline, so doesnt use .inputrc,
 # but this duplicates those features...)
 setopt hist_no_store
 setopt hist_reduce_blanks
@@ -58,7 +58,7 @@ setopt nohup
 setopt SH_WORD_SPLIT
 
 
-# Key bindings 
+# Key bindings
 # http://anyall.org/.zshrc works best for me
 bindkey "\e[A" history-beginning-search-backward
 bindkey "\e[B" history-beginning-search-forward
@@ -78,7 +78,7 @@ bindkey "\e[F" end-of-line
 bindkey "\eOH" beginning-of-line
 bindkey "\eOF" end-of-line
 bindkey "\eOd" backward-word
-bindkey "\eOc" forward-word 
+bindkey "\eOc" forward-word
 
 
 
