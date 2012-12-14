@@ -158,3 +158,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Add z to replace autojump
 . $HOME/.tools/z/z.sh
+
+# todotxt setup
+export TODOTXT_DEFAULT_ACTION=ls

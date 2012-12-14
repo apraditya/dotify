@@ -23,6 +23,7 @@ alias rcon="rails c"
 alias rser="rails s"
 alias rgen="rails g"
 alias rdes="rails destroy"
+alias td='todo.sh'
 
 # Aliases from Dinesh
 alias ls="ls -alFo"
