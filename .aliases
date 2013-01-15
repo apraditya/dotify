@@ -24,6 +24,17 @@ alias rser="rails s"
 alias rgen="rails g"
 alias rdes="rails destroy"
 alias td='todo.sh'
+alias migrate-all="rake db:migrate && rake db:migrate RAILS_ENV=test"
+alias rollback-all="rake db:rollback && rake db:rollback RAILS_ENV=test"
+
+# == Zeus related
+alias zst="zeus start"
+alias zs="zeus server"
+alias zc="zeus console"
+alias zrake="zeus rake"
+alias zrspec="zeus rspec"
+alias zg="zeus generate"
+alias zd="zeus destroy"
 
 # Aliases from Dinesh
 alias ls="ls -alFo"
