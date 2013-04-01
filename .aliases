@@ -61,6 +61,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias cgrep='grep --color=always'
 
+# Heroku build
+alias build-console='heroku run rails console --remote build'
+alias build-process='watch heroku ps --remote build'
+alias build-releases='heroku releases --remote build'
+alias build-tail='heroku logs --tail --remote build'
+
 # Heroku staging
 alias staging-console='heroku run rails console --remote staging'
 alias staging-process='watch heroku ps --remote staging'
