@@ -25,7 +25,7 @@ ZSH_THEME="adinda"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails3 ruby rvm dirpersist autojump heroku zsh-syntax-highlighting osx bundler)
+plugins=(git rails3 ruby rvm dirpersist autojump heroku zsh-syntax-highlighting osx bundler jira )
 
 source $ZSH/oh-my-zsh.sh
 
